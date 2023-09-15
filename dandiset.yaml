@@ -22,7 +22,7 @@ assetsSummary:
   - name: voltage clamp technique
     schemaKey: MeasurementTechniqueType
   numberOfBytes: 8073127848
-  numberOfCells: 10
+  numberOfCells: 210
   numberOfFiles: 210
   numberOfSubjects: 53
   schemaKey: AssetsSummary
@@ -102,9 +102,14 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-09-13T20:50:35.329036+00:00'
-description: Patch-seq electrophysiology data from human neocortical L1 neurons, accompanying
-  the manuscript "Morpho-electric and transcriptomic divergence of the layer 1 interneuron
-  repertoire in human versus mouse neocortex" (https://www.biorxiv.org/content/10.1101/2022.10.24.511199)
+datePublished: '2023-09-15T22:57:37.467321+00:00'
+description: 'Patch-seq electrophysiology data from human neocortical L1 neurons,
+  accompanying the manuscript "Morpho-electric and transcriptomic divergence of the
+  layer 1 interneuron repertoire in human versus mouse neocortex" (https://www.biorxiv.org/content/10.1101/2022.10.24.511199).
+
+
+  Analysis code and extracted features available at https://github.com/AllenInstitute/patchseq_human_L1.
+  Feature extraction package available at https://github.com/AllenInstitute/ipfx.'
 ethicsApproval: []
 id: DANDI:000630/draft
 identifier: DANDI:000630
@@ -120,6 +125,18 @@ manifestLocation:
 name: Human L1 patch-seq electrophysiology
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
+publishedBy:
+  endDate: '2023-09-15T22:57:37.467321+00:00'
+  id: urn:uuid:f86b18c7-b5dd-4bf5-b18e-113c26263d20
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-09-15T22:57:37.467321+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:393c2897-46d4-43d8-82d5-dec03b33322c
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
