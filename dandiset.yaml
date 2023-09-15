@@ -40,8 +40,8 @@ assetsSummary:
   - VoltageClampStimulusSeries
   - CurrentClampSeries
 citation: Chartrand, Thomas; Lee, Brian; Dalley, Rachel; Lein, Ed; Kalmbach, Brian
-  (2023) Human L1 patch-seq electrophysiology (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000630/draft
+  (2023) Human L1 patch-seq electrophysiology (Version 0.230915.2257) [Data set].
+  DANDI archive. https://doi.org/10.48324/dandi.000630/0.230915.2257
 contributor:
 - affiliation: []
   email: tom.chartrand@alleninstitute.org
@@ -110,8 +110,9 @@ description: 'Patch-seq electrophysiology data from human neocortical L1 neurons
 
   Analysis code and extracted features available at https://github.com/AllenInstitute/patchseq_human_L1.
   Feature extraction package available at https://github.com/AllenInstitute/ipfx.'
+doi: 10.48324/dandi.000630/0.230915.2257
 ethicsApproval: []
-id: DANDI:000630/draft
+id: DANDI:000630/0.230915.2257
 identifier: DANDI:000630
 keywords:
 - human
@@ -121,7 +122,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000630/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000630/0.230915.2257/assets.yaml
 name: Human L1 patch-seq electrophysiology
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-8epv51n45l1b/v3
@@ -143,6 +144,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget:
 - Multimodal classifcation of cell types in the human neocortex.
-url: https://dandiarchive.org/dandiset/000630/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000630/0.230915.2257
+version: 0.230915.2257
 wasGeneratedBy: []
